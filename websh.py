@@ -50,7 +50,7 @@ class WebSH:
                 }
             }''')
         # add a margin
-        height_px = min(1500, (height_array['height'] + 20))/
+        height_px = min(1500, (height_array['height'] + 20))
         # Increasing the deviceScaleFactor gets a higher-resolution image. And set the height and width
         await page.setViewport({
             'width': self.width_px,
